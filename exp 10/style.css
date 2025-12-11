@@ -1,28 +1,27 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Navbar Container */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #222;
+  background-color: #7fe100;
   color: white;
   padding: 15px 20px;
   position: relative;
 }
 
-/* Logo */
+
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-/* Nav Links */
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -38,7 +37,7 @@
   font-size: 1rem;
 }
 
-/* Actions */
+
 .actions a {
   margin-left: 15px;
   color: white;
@@ -46,19 +45,19 @@
   font-weight: bold;
 }
 
-/* Hamburger Menu */
+
 .hamburger {
   display: none;
   font-size: 2rem;
   cursor: pointer;
 }
 
-/* Hide checkbox */
+
 #menu-toggle {
   display: none;
 }
 
-/* 📱 Mobile-first Design */
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
